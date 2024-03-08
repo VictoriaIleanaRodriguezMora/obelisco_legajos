@@ -150,9 +150,31 @@
     <div class="form-group">
 
         <!-- DNI -->
-        <label for="number-input">DNI</label>
-        <input type="number" class="form-control" id="number-input" name="number" />
+        <div class="form-group">
+            <label for="lista-de-seleccion">Tipo de documento</label>
+            <select class="custom-select" id="lista-de-seleccion">
+                <option>LE</option>
+                <option>LC</option>
+                <option selected="selected">DNI</option>
+                <option>PAS</option>
+                <option>CI</option>
+                <option>EXT</option>
+                <option>CUIT</option>
+            </select>
+        </div>
         <!-- DNI -->
+
+        <!-- Número de Documento -->
+        <label for="number-input">Número de Documento</label>
+        <input type="number" class="form-control" id="number-input" name="number" />
+        <!-- Número de Documento -->
+
+
+        <!-- Boton Primario -->
+        <button type="button" class="btn btn-primary">Primario</button>
+        <!-- Boton Primario -->
+
+
     </div>
     <!-- Componente Formulario -->
 
